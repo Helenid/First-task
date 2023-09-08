@@ -20,7 +20,7 @@ body{
     margin-top: 10px;
     border-radius: 15px;
     box-shadow: 5px 10px 15px rgb(212, 203, 212);
-    padding-bottom: 50;
+    padding-bottom: 50px;
 }
 .profile {
     color: rgb(102, 8, 146);
@@ -68,7 +68,7 @@ h3, h4{
 .github{
     text-align: center;
     margin-top: 10px;
-    background-color: RGB(102, 8, 146);
+    background-color: rgb(102, 8, 146);
 }
 .github-link{
     text-decoration: none;
@@ -77,16 +77,16 @@ h3, h4{
     width: 300px;
     color: #fff;
     background-color: rgb(102, 8, 146);
-    padding: 10;
+    padding: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20;
+    margin-top: 20px;
     border: 1px solid rgb(102, 8, 146);
 }
 
 .github-link:hover{
     background: rgb(255, 255, 255);
-    color: RGB(102,8,146);
+    color: rgb(102,8,146);
     transition: .5s;
 }
