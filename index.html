@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first project</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section class="container">
+        <h2 class="profile">my profile</h2>
+        <div class="image" data-testid="slackDisplayImage">
+            <img src="my_image.jpg" alt="my picture" width="300" height="300">
+        </div>
+       <div class="name" data-testid="slackUserName">
+           <h3> Name: <span id="name">Idowu Helen</span></h3>
+       </div>
+       <div class="track" data-testid="myTrack">
+        <h4>Track: <span id="track">Frontend</span></h4>
+        </div>
+       <div class="day"
+       data-testid="currentDayOfTheWeek"><h4 class="todaysDate">Day: <span>friday</span></h4>
+        </div>
+     <div class="time" data-testid="currentUTCTime"><h4 class="todaysTime">The time is <span id="time"> 9:45am</span></h4> 
+        </div>
+     <a href="https://github.com/Helenid" class="github-link">Open Github</a>
+ 
+
+    </section>
+
+    <script src="./app.js"></script>
+</body>
+</html>

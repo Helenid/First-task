@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0;
+}
+.container{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   cursor: pointer;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 15px rgb(212, 203, 212);
+    padding-bottom: 50;
+}
+.profile {
+    color: rgb(102, 8, 146);
+    padding: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: .3rem;
+}
+.img{
+   
+}
+
+div{
+    color: rgb(71, 11, 131);
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 5px;
+    letter-spacing: .5px;
+}
+.name span{
+    text-transform: uppercase;
+    letter-spacing: 2px; 
+}
+
+.track, .day{
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+    letter-spacing: .5px;
+}
+ .github h2{
+    border: 1px solid rgb(102, 8, 146);
+    width: 300px;
+    padding: 10px;
+}
+
+h3, h4{
+    border: 1px solid rgb(102, 8, 146);
+   padding: 10px;
+   width: 300px;
+   margin: 5px;
+   border-radius: 2px 2px 5px rgb(102, 8, 146);
+   font-size: 1.2rem;
+} 
+.github{
+    text-align: center;
+    margin-top: 10px;
+    background-color: RGB(102, 8, 146);
+}
+.github-link{
+    text-decoration: none;
+    font-size: 1.2rem;
+    color:rgb(102, 8, 146);
+    width: 300px;
+    color: #fff;
+    background-color: rgb(102, 8, 146);
+    padding: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20;
+    border: 1px solid rgb(102, 8, 146);
+}
+
+.github-link:hover{
+    background: rgb(255, 255, 255);
+    color: RGB(102,8,146);
+    transition: .5s;
+}
