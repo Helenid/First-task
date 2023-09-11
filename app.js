@@ -13,10 +13,10 @@ const todaystime = document.querySelector(".todaysTime");
 
 const hour = new Date().getHours();
 const minute = new Date().getMinutes();
-const seconds = new Date().getSeconds();
+const milliSeconds = new Date().getTime();
 let day = new Date().getDay();
 day = weekdays[day];
 console.log(day);
 
 todaysDate.textContent = `Today: ${day}`;
-todaystime.textContent = `UTC time(milliseconds): ${new Date().getUTCMilliseconds()}`;
+todaystime.textContent = `UTC time(milliseconds): ${milliSeconds}`;
